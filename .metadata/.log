@@ -599,3 +599,93 @@ Binding(CTRL+F,
 
 !ENTRY org.mule.tooling.core 2 0 2020-01-17 12:53:53.391
 !MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+!SESSION 2020-01-17 14:46:27.153 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_232
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-17 14:47:15.993
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.3.ee
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-17 14:47:16.003
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.3.ee
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-17 14:47:16.183
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.0.ee
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-17 14:47:16.183
+!MESSAGE Unable to resolve source directory for server org.mule.tooling.server.3.9.0.ee
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:28.798
+!MESSAGE No repository found at jar:file:/C:/tmp/DragonFish-ECommerce/Mirrit/Github/Mirrit/mirrit-process-layer-1.0.4.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:28.798
+!MESSAGE No repository found at jar:file:/C:/tmp/DragonFish-ECommerce/Mirrit/Github/Mirrit/mirrit-process-layer-1.0.4.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:28.877
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/DragonFish-Shopify-Integration/libraries/Metrics/acqua-it-metrics-connector-1.0.0-studio-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:28.877
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/DragonFish-Shopify-Integration/libraries/Metrics/acqua-it-metrics-connector-1.0.0-studio-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:28.939
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/.m2/repository/com/acquait/dragonfish-connector/1.0.0/dragonfish-connector-1.0.0.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:28.944
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/.m2/repository/com/acquait/dragonfish-connector/1.0.0/dragonfish-connector-1.0.0.jar!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:29.013
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/DragonFish-Shopify-Integration/libraries/Metrics/acqua-it-metrics-connector-1.0.0-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:29.013
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/DragonFish-Shopify-Integration/libraries/Metrics/acqua-it-metrics-connector-1.0.0-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:31.734
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/Desktop/acqua-it-metrics-connector-1.0.0-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:31.734
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/Desktop/acqua-it-metrics-connector-1.0.0-plugin.zip!/.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-17 14:47:34.598
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-17 14:47:34.603
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-17 14:47:34.603
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-17 14:47:34.603
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-17 14:47:34.603
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-17 14:47:34.603
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-17 14:47:37.076
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-17 14:47:37.076
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:37.483
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/Desktop/acqua-it-metrics-connector-1.0.0-studio-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:37.483
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/Desktop/acqua-it-metrics-connector-1.0.0-studio-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:42.083
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/DragonFish-Shopify-Integration/libraries/DragonFish/dragonfish-connector-1.0.0-studio-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:42.083
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/DragonFish-Shopify-Integration/libraries/DragonFish/dragonfish-connector-1.0.0-studio-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:52.093
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/DragonFish-Shopify-Integration/libraries/DragonFish/dragonfish-connector-1.0.0-plugin.zip!/.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2020-01-17 14:47:52.093
+!MESSAGE No repository found at jar:file:/C:/Users/Ariel%20Bonomi/DragonFish-Shopify-Integration/libraries/DragonFish/dragonfish-connector-1.0.0-plugin.zip!/.

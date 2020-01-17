@@ -167,6 +167,7 @@
               <children xsi:type="basic:PartSashContainer" xmi:id="_loCRCjbaEeqV_rcfydhGVQ" containerData="5375" selectedElement="_loCRCzbaEeqV_rcfydhGVQ" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_loCRCzbaEeqV_rcfydhGVQ" elementId="org.eclipse.ui.editorss" containerData="7524" ref="_k8Ei4DbaEeqV_rcfydhGVQ"/>
                 <children xsi:type="basic:PartStack" xmi:id="_loCRDDbaEeqV_rcfydhGVQ" elementId="right" containerData="2476" selectedElement="_loCRDTbaEeqV_rcfydhGVQ">
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_loCRDTbaEeqV_rcfydhGVQ" elementId="org.mule.tooling.ui.palette.PaletteView" ref="_k8Yr8DbaEeqV_rcfydhGVQ"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_loCRDjbaEeqV_rcfydhGVQ" elementId="org.mule.tooling.apikit.common.views.ApiSyncView" toBeRendered="false" ref="_lGnmADbaEeqV_rcfydhGVQ"/>
                 </children>
@@ -195,14 +196,12 @@
       <children xsi:type="basic:PartStack" xmi:id="_k8Ei4TbaEeqV_rcfydhGVQ" elementId="PartStack@5340ccb9" selectedElement="__b0YIDbaEeqV_rcfydhGVQ">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="__b0YIDbaEeqV_rcfydhGVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="practica" iconURI="platform:/plugin/org.mule.tooling.messageflow/icons/Mule-16x16.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.mule.tooling.messageflow.messageFlowEditor&quot; name=&quot;practica.xml&quot; partName=&quot;practica&quot; title=&quot;practica&quot; tooltip=&quot;practica/src/main/app/practica.xml&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/practica/src/main/app/practica.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.mule.tooling.messageflow.messageFlowEditor</tags>
           <tags>removeOnHide</tags>
           <tags>activeOnClose</tags>
-          <tags>active</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_BKHRsDb2EeqV_rcfydhGVQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="dev.properties" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/file_obj.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.PropertiesFileEditor&quot; name=&quot;dev.properties&quot; partName=&quot;dev.properties&quot; title=&quot;dev.properties&quot; tooltip=&quot;practica/src/main/resources/dev.properties&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/practica/src/main/resources/dev.properties&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;6&quot; selectionOffset=&quot;244&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -272,6 +271,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:MuleSoft</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_lVAAQDbaEeqV_rcfydhGVQ" elementId="org.mule.tooling.ui.palette.PaletteView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -387,7 +388,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lA1uIDbaEeqV_rcfydhGVQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_c3i3UDlBEeqLTOOleNk0wA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_kWqv4TbaEeqV_rcfydhGVQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Yv1n0DlREeq1GrG8N8vgNA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_kWqv4TbaEeqV_rcfydhGVQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lA1uITbaEeqV_rcfydhGVQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -411,7 +412,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lA2VMDbaEeqV_rcfydhGVQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_c3l6oDlBEeqLTOOleNk0wA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_kWqI0DbaEeqV_rcfydhGVQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_Yv4EFTlREeq1GrG8N8vgNA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_kWqI0DbaEeqV_rcfydhGVQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_lA2VMTbaEeqV_rcfydhGVQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2607,7 +2608,7 @@
   <addons xmi:id="_kVqqMzbaEeqV_rcfydhGVQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_kVqqNDbaEeqV_rcfydhGVQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_kVz0IDbaEeqV_rcfydhGVQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_YNpgwTlREeq1GrG8N8vgNA" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_kWa4IDbaEeqV_rcfydhGVQ" elementId="org.eclipse.team.ui.category.team" name="Team" description="Actions that apply when working with a Team"/>
   <categories xmi:id="_kWa4ITbaEeqV_rcfydhGVQ" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

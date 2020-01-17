@@ -1,0 +1,28 @@
+#Woo
+Woo_API_Host=192.168.99.100
+Woo_API_Port=443
+Woo_API_BasePath=/wp-json/wc/v3
+Woo_API_Backend=admin
+Woo_API_Key=ck_829ef22c35b0cde61be37e6c2f6074f7b4148be2
+Woo_API_Password=cs_cdbb5667d342a6a71a91e48d52abbfb0dd3ce969
+Woo_API_Timeout=300000
+
+#Active MQ 
+# ActiveMQ 
+activemq.queue.url=tcp://localhost:61616
+activemq.queue.user=admin
+activemq.queue.pass=admin 
+activemq.queue.initialRedeliveryDelay=15000 
+activemq.queue.redeliveryDelay=15000 
+activemq.queue.maximumRedeliveries=2
+activemq.queue.webhook=webhook
+activemq.queue.articulos=articulos
+activemq.queue.mensajes.articulos.dragon=msg-articulos-dragon
+activemq.queue.mensajes.articulos.shopify=msg-articulos-shopify
+activemq.queue.mensajes.articulos.shopify.csv=msg-articulos-shopify-csv
+activemq.queue.mensajes.articulos.woo=msg-articulos-woo
+activemq.queue.mensajes.articulos.woo.csv=msg-articulos-woo-csv
+activemq.queue.mensajes.articulos.webhook=msg-articulos-webhook
+activemq.queue.jobs_pending=jobs_pending
+activemq.queue.deadqueue=dead-queue
+activemq.queue.articulos.csv=articulos-csv

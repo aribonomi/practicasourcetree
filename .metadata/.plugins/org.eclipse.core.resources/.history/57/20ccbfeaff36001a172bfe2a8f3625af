@@ -1,0 +1,15 @@
+#Woo
+Woo_API_Host=192.168.99.100
+Woo_API_Port=443
+Woo_API_BasePath=/wp-json/wc/v3
+Woo_API_Backend=admin
+Woo_API_Key=ck_829ef22c35b0cde61be37e6c2f6074f7b4148be2
+Woo_API_Password=cs_cdbb5667d342a6a71a91e48d52abbfb0dd3ce969
+Woo_API_Timeout=300000
+
+#Active MQ 
+activemq_api_jolokia_Host=localhost
+activemq_api_jolokia_Port=8161
+activemq_api_jolokia_BasePath=/api/jolokia/
+activemq.queue.user=admin
+activemq.queue.pass=admin

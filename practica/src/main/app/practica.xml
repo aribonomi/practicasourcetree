@@ -21,5 +21,6 @@ http://www.mulesoft.org/schema/mule/jbossts http://www.mulesoft.org/schema/mule/
         <http:listener config-ref="HTTP_Listener_Configuration" path="/webhook" doc:name="HTTP"/>
         <http:request config-ref="HTTP_Request_Configuration" path="/webhooks" method="GET" doc:name="HTTP"/>
         <logger level="INFO" doc:name="Logger"/>
+        <set-variable variableName="webhook1" value="#[payload]" doc:name="Variable"/>
     </flow>
 </mule>

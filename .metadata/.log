@@ -814,3 +814,33 @@ Binding(CTRL+F,
 
 !ENTRY org.mule.tooling.core 2 0 2020-01-20 10:00:55.934
 !MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-20 12:05:06.869
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-20 12:05:06.889
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-20 12:05:06.889
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-20 12:05:06.889
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-20 12:05:06.889
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 1 0 2020-01-20 12:05:06.894
+!MESSAGE While generating classpath found that C:\Users\Ariel Bonomi\Desktop\Anypoint Studio 3.9\AnypointStudio\plugins\org.mule.tooling.server.3.9.3.ee_6.6.0.201911051818\mule\lib\endorsed\ is not a directory.
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-20 12:05:09.935
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-20 12:05:09.935
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-20 12:05:09.939
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null
+
+!ENTRY org.mule.tooling.core 2 0 2020-01-20 12:05:09.939
+!MESSAGE Authenticator was changed to class org.mule.tooling.utils.networking.ProxyAuthenticator. Restoring default authenticator to null

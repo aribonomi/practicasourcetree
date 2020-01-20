@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<mule xmlns:jbossts="http://www.mulesoft.org/schema/mule/jbossts" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:jms="http://www.mulesoft.org/schema/mule/jms" xmlns:tls="http://www.mulesoft.org/schema/mule/tls" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+<mule xmlns:smtp="http://www.mulesoft.org/schema/mule/smtp" xmlns:jbossts="http://www.mulesoft.org/schema/mule/jbossts" xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:jms="http://www.mulesoft.org/schema/mule/jms" xmlns:tls="http://www.mulesoft.org/schema/mule/tls" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
 	xmlns:spring="http://www.springframework.org/schema/beans" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
@@ -8,7 +8,8 @@ http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/cor
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/tls http://www.mulesoft.org/schema/mule/tls/current/mule-tls.xsd
 http://www.mulesoft.org/schema/mule/jms http://www.mulesoft.org/schema/mule/jms/current/mule-jms.xsd
-http://www.mulesoft.org/schema/mule/jbossts http://www.mulesoft.org/schema/mule/jbossts/current/mule-jbossts.xsd">
+http://www.mulesoft.org/schema/mule/jbossts http://www.mulesoft.org/schema/mule/jbossts/current/mule-jbossts.xsd
+http://www.mulesoft.org/schema/mule/smtp http://www.mulesoft.org/schema/mule/smtp/current/mule-smtp.xsd">
     <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration"/>
     <http:request-config name="HTTP_Request_Configuration" protocol="HTTPS" host="${Woo_API_Host}" port="${Woo_API_Port}" basePath="${Woo_API_BasePath}" connectionIdleTimeout="300000" doc:name="HTTP Request Configuration">
         <http:basic-authentication username="aricommerce" password="5)$#7U7gYmPREQ9y79"/>
@@ -21,7 +22,6 @@ http://www.mulesoft.org/schema/mule/jbossts http://www.mulesoft.org/schema/mule/
         <http:listener config-ref="HTTP_Listener_Configuration" path="/webhook" doc:name="HTTP"/>
         <http:request config-ref="HTTP_Request_Configuration" path="/webhooks" method="GET" doc:name="HTTP"/>
         <logger level="INFO" doc:name="Logger"/>
-        <set-variable variableName="webhook1" value="#[payload]" doc:name="Variable"/>
-        <logger level="INFO" doc:name="Logger"/>
+        <smtp:outbound-endpoint host="localhost" responseTimeout="10000" doc:name="SMTP"/>
     </flow>
 </mule>
